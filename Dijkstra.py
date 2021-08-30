@@ -61,9 +61,3 @@ customGraph.addEdge("E", "G", 9)
 customGraph.addEdge("F", "G", 7)
 
 print(dijkstra(customGraph, "A"))
-
-
-# See change the distance from d to e to 1 and from b to e to 6.
-# then to get to e from a ,
-# shortest path should be a b d e
-# but your code is giving a b e
